@@ -1,0 +1,6 @@
+import math as m
+bar1 = float(input('Введіть x  '))
+bar2 = float(input('Введіть a  '))
+bar3 = float(input('Введіть b  '))
+bar4 = float(input('Введіть c  '))
+print((bar2*m.cos(bar3) + m.e**bar4)**0.5 + m.log(2**bar1 + 4, 7))

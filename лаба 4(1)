@@ -1,0 +1,8 @@
+import math as m
+bar1 = float(input('Введіть x  '))
+def funk(x1):
+    try:
+        return (x1+m.sin(x1))/(m.log10(m.fabs(x1 - x1 ** 4))) + m.log(x1, 4)
+    except:
+        print('вираз не можливо порахувати')
+print(funk(bar1))
